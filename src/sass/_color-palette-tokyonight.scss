@@ -5,7 +5,7 @@ $red-light: #f7768e;
 $red-dark: #ff5370;
 
 // Pink +
-$pink-light: #B376B3;
+$pink-light: #b376b3;
 $pink-dark: #ba3c97;
 
 // Purple +
@@ -21,7 +21,7 @@ $teal-light: #89ddff;
 $teal-dark: #0db9d7;
 
 // Green +
-$green-light: #9DBA72;
+$green-light: #9dba72;
 $green-dark: #9ece6a;
 
 // Yellow +
@@ -44,28 +44,31 @@ $grey-400: #42465d;
 $grey-450: #3b3e52;
 $grey-500: #2b2b3b;
 $grey-550: #292e42;
-$grey-600: #232433;
-$grey-650: #202330; // Menu BG (dropdown)
-$grey-700: #1f202e; // Main BG for theme?
-$grey-750: #1c1d29;
-$grey-800: #1a1b26;
+$grey-600: #222431; // Page selector background
+$grey-650: #1a1b22; // Menu BG (dropdown)
+$grey-700: #20212a; // Main BG for theme?
+$grey-750: #20212a; // Menu bars BG
+$grey-800: #1a1b22; // Tooltips
 $grey-850: #14141b;
 $grey-900: #111117;
 $grey-950: #0f0f14;
 
 // White
-$white: #acb0d0;
+$white: #bfc9f5;
 // Black
 $black: #0f0f14;
 
 // Button
-$button-close: if($variant == 'light', #ed5d5d, #f44d4d);
-$button-max: if($variant == 'light', #43db68, #4be772);
-$button-min: if($variant == 'light', #e3d93b, #e8f467);
+$button-close: if($variant == "light", #ed5d5d, #f44d4d);
+$button-max: if($variant == "light", #43db68, #4be772);
+$button-min: if($variant == "light", #e3d93b, #e8f467);
 
 // Link
 $links: #89ddff;
 
 // Theme
-$default-light: #c0cefc;
-$default-dark: #282833;
+$default-light: #bfc9f5;
+$default-dark: #20212a;
+
+// Text
+$text-selected-background: #2c3758;
